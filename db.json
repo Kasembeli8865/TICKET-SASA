@@ -1,0 +1,32 @@
+{
+    "Routes": [
+      {
+        "id": 1,
+        "Destination": "Nairobi - Kisumu",
+        "Time": "10:30 PM",
+        "Company":"GREENLINE SAFARIS",
+        "Available seats":45 
+      },
+      {
+        "id": 2,
+        "Destination": "Nairobi - Kitale",
+        "Time": "8:00 AM",
+        "Company": "EASYCOACH",
+        "Available seats":30
+      },
+      {
+        "id": 3,
+        "Destination":"Nairobi - Mombasa",
+        "Time":"9:30 PM",
+        "Company":"MODERN-COAST",
+        "Available seats":40
+      },
+      {
+        "id":4,
+        "Destination":"Nairobi - Kisumu",
+        "Time":"9:30 PM",
+        "Company":"EASYCOACH",
+        "Available seats":35
+      }
+    ]
+  }
