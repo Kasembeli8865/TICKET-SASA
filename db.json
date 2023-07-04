@@ -2,31 +2,35 @@
     "Routes": [
       {
         "id": 1,
-        "Destination": "Nairobi - Kisumu",
-        "Time": "10:30 PM",
-        "Company":"GREENLINE SAFARIS",
-        "Available seats":45 
+        "destination": "Nairobi - Kisumu",
+        "time": "10:30 PM",
+        "company":"GREENLINE SAFARIS",
+        "seats":45,
+        "price":"KSH 2500" 
       },
       {
         "id": 2,
-        "Destination": "Nairobi - Kitale",
-        "Time": "8:00 AM",
-        "Company": "EASYCOACH",
-        "Available seats":30
+        "destination": "Nairobi - Kitale",
+        "time": "8:00 AM",
+        "company": "EASYCOACH",
+        "seats":30,
+        "price": "KSH 1400"
       },
       {
         "id": 3,
-        "Destination":"Nairobi - Mombasa",
-        "Time":"9:30 PM",
-        "Company":"MODERN-COAST",
-        "Available seats":40
+        "destination":"Nairobi - Mombasa",
+        "time":"9:30 PM",
+        "company":"MODERN-COAST",
+        "seats":40,
+        "price":"KSH 3000"
       },
       {
         "id":4,
-        "Destination":"Nairobi - Kisumu",
-        "Time":"9:30 PM",
-        "Company":"EASYCOACH",
-        "Available seats":35
+        "destination":"Nairobi - Kisumu",
+        "time":"9:30 PM",
+        "company":"EASYCOACH",
+        "seats":35,
+        "price":"KSH 2500"
       }
     ]
   }
