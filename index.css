@@ -33,7 +33,7 @@ header {
     font-weight: bold;
   }
   
-  nav li a {
+  /* nav li a {
     color: #fff;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,7 +43,7 @@ header {
   nav li a:hover {
     color: #ffcc00;
   }
-  
+   */
 
 #backgroundimage {
     background-image: url("damir-kopezhanov-R1WD3mMjGPA-unsplash.jpg");
@@ -51,7 +51,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 100vh; /* Adjust the height as needed */
+    height: 100vh; 
   }
 
   .travel{
