@@ -4,34 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TICKET SASA</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
 </head>
 <body>
     <header>
-        <h1>TICKET SASA</h1>   
+        <h1>TICKET SASA</h1> 
+        <img src="bus.png" id="logo">  
     <nav>
         <li>HOME</li>
         <li>ABOUT</li>
         <li>CONTACT</li>
     </nav>
     </header>
-  <div = backgroundimage>  
- <p>TRAVEL IN STYLE</p>
- <button onclick="bookNow()">BOOK NOW!</button>
+  <div id="body">  
+  <div id= backgroundimage>  
+ <p class = travel>TRAVEL<br> IN<br> STYLE</p>
+ <button class="book" onclick="bookNow()"><b>BOOK NOW!</b></button>
   </div>
  <div id =listings ></div>
 
  <div id = popular destinations>
- <ul>
+ <ul class="popular">
+    <em>
     <p>POPULAR DESTINATIONS:</p>
     <li>KITALE</li>
     <li>KISUMU</li>
     <li>MOMBASA</li>
     <p>MORE DESTINATIONS TO BE ADDED SOON!</p>
+    </em>
  </ul>
  </div>
+ <div id = patners>
+  <ul>
+    <em>
+        <p>OUR PATNERS:</p>
+        <li>EASYCOACH</li>
+        <li>MODERN COAST</li>
+        <li>GREENLINE SAFARIS</li>
+        <li>GUARDIAN</li>
+    </em>
+  </ul>    
+</div>
+  </div>
+
+
  <footer>
+    <div id = sasa>
     <p>TICKET SASA</p>
+    <img src="facebook-app-symbol.png" id="facebook">
+    <img src="twitter.png" id="twitter">
+    <img src="instagram.png" id="instagram">
+    </div>
+    <div id = terms >
     <p>TERMS AND CONDITIONS APPLY<br>COPYRIGHT 2023</p>
+    </div>
  </footer>
 </body>
 </html>

@@ -1,0 +1,193 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #45CFDD;
+    padding: 10px;
+    height: 50px; 
+  }
+  
+  #logo {
+    width: 30px;
+    height: 30px;
+    margin-left: -112rem;
+  }
+  
+  header h1 {
+    color: #000;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  nav li a:hover {
+    color: #ffcc00;
+  }
+  
+
+#backgroundimage {
+    background-image: url("damir-kopezhanov-R1WD3mMjGPA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+  }
+
+  .travel{
+    margin-left: 5rem;
+    color: white;
+    font-size: 10rem;
+    font-family:  Arial, sans-serif;  
+  }
+
+  .book{
+    margin-left: 70rem;
+    font-size: larger;
+    font-family:  Arial, sans-serif;
+    border-radius: 20px;
+    padding: 12px 24px;
+    box-shadow: 10px 10px 8px #888888;
+  }
+  
+ .book:hover {
+    color: red;
+ }
+
+ #listings{
+    background-color: black;
+ }
+ 
+
+ .ticket-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 170px;
+    grid-gap: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #A7EDE7;
+  }
+  
+  .ticket-item h2 {
+    grid-column: 1 / span 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  .ticket-item h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1rem;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  .ticket-item h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: -70rem;
+    margin-top: 2rem;
+  }
+  
+  .ticket-item button {
+    margin-left: 50rem;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 5px;
+    padding-top: -30px;
+    background-color: #89C4E1;
+    position: relative;
+    top: -7rem;
+    left:-15rem;
+    box-shadow: 10px 10px 8px #888888;
+    
+  }
+  
+  .ticket-item h5{
+    margin-left: 50rem;
+    margin-top: -3rem;
+    color: red;
+    font-size: medium;
+    font: 1em sans-serif;
+  }
+ 
+  #body{
+    margin-top: -10rem;
+  }
+
+  #popular{
+    background-color: #6527BE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: grid;
+  }
+
+  #patners{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: -13rem;
+    margin-left: 100rem;
+  }
+
+  footer{
+    display:grid ;
+  }
+
+  #sasa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+  
+  #facebook{
+    width: 50px;
+    height: 50px;
+  }
+
+  #instagram {
+    width: 50px;
+    height: 50px;
+  }
+
+  #twitter {
+    width: 50px;
+    height: 50px;
+  }
+
+  #terms {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-left: 100rem;
+    margin-top: -3rem;
+  }
