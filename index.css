@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #45CFDD;
+    background-color: #6527BE;
     padding: 10px;
     height: 50px; 
   }
@@ -86,7 +86,7 @@ header {
     grid-gap: 10px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #A7EDE7;
+    background-color:white;
   }
   
   .ticket-item h2 {

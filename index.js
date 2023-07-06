@@ -1,8 +1,18 @@
 function bookNow() {
-    fetch('http://localhost:3000/Routes')
-      .then(response => response.json())
-      .then(data => displayTickets(data));
-  }
+  fetch('https://routes-jl23.onrender.com/Routes', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+    .then(response => response.json())
+    .then(data => displayTickets(data))
+    .catch(error => {
+      console.error('Error fetching routes:', error);
+    });
+}
+
+
   // Function to display tickets
   function displayTickets(ticket) {
       const listings = document.getElementById("listings"); // Get the listings container element from the DOM
@@ -45,22 +55,30 @@ function bookNow() {
   
  // This function is responsible for purchasing a ticket
  function purchaseTicket(ticket, availableSeats) {
-   // Check if there are available tickets
-   if (availableSeats.tickets > 0) {
-     // Decrease the number of available tickets by 1
-     availableSeats.tickets--;
-     
-     // Update the text content of the availableSeats element with the new count
-     availableSeats.innerText = "Available Seats: " + availableSeats.tickets;
-     
-     // Display a pop-up message showing the details of the purchased ticket
-     alert("TICKET PURCHASED\nDestination: " + ticket.destination + "\nPrice: " + ticket.price);
-   } else {
-     // Display a pop-up message indicating that no tickets are available
-     alert("No Tickets Available!");
-   }
- }
- 
+    // Check if there are available tickets
+    if (availableSeats.tickets > 0) {
+      // Decrease the number of available tickets by 1
+      availableSeats.tickets--;
+  
+      // Update the text content of the availableSeats element with the new count
+      availableSeats.innerText = "Available Seats: " + availableSeats.tickets;
+  
+      // Display a SweetAlert success message with the details of the purchased ticket
+      swal({
+        icon: 'success',
+        title: 'TICKET PURCHASED',
+        text: 'Destination: ' + ticket.destination + '\nPrice: ' + ticket.price,
+      });
+    } else {
+      // Display a SweetAlert error message indicating that no tickets are available
+       swal({
+        icon: 'error',
+        title: 'No Tickets Available!',
+        text: 'Sorry, all tickets have been sold.',
+      });
+    }
+  }
+  
   
         //   let departureDate = document.createElement("h4");
         //   departureDate.innerHTML = "Depature Date:" + element.date;

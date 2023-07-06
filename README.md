@@ -9,7 +9,7 @@ Ticket Sasa App is an application that enables passengers to be able to book bus
 Features:
 1. Passengers are able to browse through various tickets and see available tickets.
 2. Passengers are able to choose various destinations displayed and know the depature time of the various buses.
-3. Passemgers are able to choose from a variety of different bus companies and are able to tickets based on the fare that they are able to afford.
+3. Passengers are able to choose from a variety of different bus companies and are able to tickets based on the fare that they are able to afford.
 4. Users are also able to see how many seats are remaining.
 
 License
