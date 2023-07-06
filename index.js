@@ -79,13 +79,3 @@ function bookNow() {
   }
   
   
-        //   let departureDate = document.createElement("h4");
-        //   departureDate.innerHTML = "Depature Date:" + element.date;
-        //   div.appendChild(departureDate)
-
-
-    // function addDestination(){
-    //     fetch("http://localhost:3000/Routes",{
-    //         method: "PUT"
-    //     })
-    // }
