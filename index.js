@@ -29,7 +29,6 @@ function bookNow() {
           departureTime.innerHTML = "Departure Time: " + element.time; // Set the innerHTML of the h3 element to the departure time
           div.appendChild(departureTime); // Append the h3 element to the ticket div
 
-  
           let busCompany = document.createElement("h4"); // Create a new h3 element for the bus company
           busCompany.innerText = element.company; // Set the text of the h3 element to the bus company
           div.appendChild(busCompany); // Append the h3 element to the ticket div
