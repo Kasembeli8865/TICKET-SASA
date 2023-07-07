@@ -1,3 +1,4 @@
+//Function to get data from the API
 function bookNow() {
   fetch('https://routes-jl23.onrender.com/Routes', {
     method: 'GET',
@@ -11,7 +12,6 @@ function bookNow() {
       console.error('Error fetching routes:', error);
     });
 }
-
 
   // Function to display tickets
   function displayTickets(ticket) {
