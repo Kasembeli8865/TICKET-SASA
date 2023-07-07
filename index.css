@@ -6,6 +6,10 @@ header {
     padding: 10px;
     height: 50px; 
   }
+  body {
+    touch-action: manipulation;
+    zoom: reset;
+  }
   
   #logo {
     width: 30px;
