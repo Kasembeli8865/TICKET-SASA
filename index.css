@@ -56,9 +56,11 @@ header {
 
   .travel{
     margin-left: 5rem;
+    opacity: 1.8;
     color: white;
     font-size: 10rem;
     font-family:  Arial, sans-serif;  
+    font-weight: bolder;
   }
 
   .book{
