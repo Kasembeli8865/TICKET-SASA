@@ -63,12 +63,13 @@ header {
 
   .book{
     margin-left: 80rem;
-    margin-top: 10rem;
+    margin-top: 20rem;
     font-size: larger;
     font-family:  Arial, sans-serif;
     border-radius: 20px;
     padding: 12px 24px;
     box-shadow: 10px 10px 8px #888888;
+    
   }
   
  .book:hover {
